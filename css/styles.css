@@ -41,3 +41,89 @@ body {
     padding: 10px;
     color: white;
 }
+
+
+/* DISEÑO RESPONSIVE */
+
+/* Estilos laptop 1200px */
+body {
+    background-color:white;
+    margin: 0px;
+}
+
+#header {
+    background-color: rgb(252, 124, 77);
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.barraHeader ul {
+    padding: 10px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* CSS LOGIN Y REGISTER */
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+/* no entiendo si para que este centrada 100% tengo que poner 100vh, porque en realidad me hace scrollear en la pantalla */
+
+
+#main form{
+    background-color: rgb(211, 211, 211);
+    padding: 10%;
+}
+
+
+
+/* Estilos tablet 768px */
+@media(max-width: 768px) {
+
+
+    .barraHeader ul{
+        align-items: center;
+        list-style-type: none;
+    }
+}
+
+
+/* Estilos telefono 420px */
+
+@media(max-width: 420px) {
+    
+    #header{
+        height: 300px;
+    }
+
+    .barraHeader{
+        flex-direction: column;
+    }
+    
+    .barraHeader ul li{
+        margin-bottom: 5px;
+        width: 100%;
+        height: 25px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}

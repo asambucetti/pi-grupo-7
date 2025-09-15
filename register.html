@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <header id="header">
+        <section class="logo">
+            <img src="./img/logopagina.png" href="index.html" alt="Logo">
+        </section>
+
+        <div>
+            <form action="./search-results.html" method="get">
+                <input type="text" name="buscador" input="Buscar producto" placeholder="Buscar producto" class="buscador">
+                <button type="button" class="lupita">🔍</button>
+            </form>
+        </div>
+        
+        <nav class="barraHeader">
+            <ul class="menuGeneral">
+                <li><a href="./index.html" class="menu">Home</a></li>
+                <li><a href="./login.html" class="menu">Login</a></li>
+                <li><a href="./register.html" class="menu">Register</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+
+    <main id="main">
+        <form action="./index.html" method="get">
+            <div>
+                <label for="">Email:</label>
+                <input type="email" name="emailuser" value="@gmail.com">
+            </div>
+            <br>
+            <div>
+                <label for="">Contraseña:</label>
+                <input type="password" name="passuser" placeholder="Contraseña">
+            </div>
+            <br>
+            <div>
+                <label for="">Repetir contraseña:</label>
+                <input type="password" name="passuser" placeholder="Contraseña">
+            </div>
+            <br>
+            <div>
+                <input type="checkbox" name="hobbies" value="futbol" checked> <span>Acepto términos y condiciones</span>
+            </div>
+            <br>
+            <div>
+                <button type="submit">Registrarme</button>
+            </div>
+            <br>
+            <div>
+                <a href="./login.html">Ya tengo una cuenta</a>
+            </div>
+
+
+        </form>
+    </main>
+
+           
+</body>
+</html>
