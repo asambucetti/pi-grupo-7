@@ -127,3 +127,90 @@ body {
     }
     
 }
+
+
+/* css product */
+
+.mainflynpaff{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    background-color: #ebe7ea;
+}
+
+
+
+.fotoflynnpaff{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 320px;
+    margin-bottom: 400px;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: 70px;
+}
+
+.fotoflynnpaff img{
+    box-shadow: 0 20px 20px rgba(57, 56, 56, 0.1);
+    height: 400px;
+}
+
+.infoproducto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 400px;
+    margin: 0;
+    padding: 0;
+
+}
+
+article{
+    width: 380px;
+    text-align: left;
+}
+
+.tituloflynnpaff{
+    font-weight: 600px;
+    color: black;
+    margin-top: 40px;
+}
+
+.reviews{
+    font-weight: 600px;
+    color: black;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: rgb(252, 124, 77);
+    background-color: rgb(250, 176, 150);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.tituloreviews{
+    text-decoration: underline;
+}
+
+.comentarioflynnpaff{
+    font-style: italic;
+      color: #333;
+      margin: 10px 0;
+}
+
+
+.usuario1{
+    background-color: rgb(249, 196, 178);
+    padding: 10px;
+    margin-bottom: 20px
+    
+}
+
+.usuario2{
+    background-color: rgb(249, 196, 178);
+    padding: 10px;
+    margin-bottom: 20px
+}
