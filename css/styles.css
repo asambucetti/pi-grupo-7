@@ -70,8 +70,10 @@ body {
 
 
 #main form{
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(251, 190, 143);
     padding: 10%;
+
+    border-radius: 20px;
 }
 
 
@@ -162,6 +164,35 @@ article{
     margin-bottom: 20px
 }
 
+
+
+footer{
+    color: white;
+    background-color: rgb(250, 168, 138);
+    margin-top: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.footerNav {
+    list-style: none;
+    padding: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.footerMail {
+    color: rgb(49, 49, 255);
+    padding-left: 50px;
+}
+
+.footerPalo {
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
 
 /* RESPONSIVE */
