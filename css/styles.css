@@ -1,3 +1,7 @@
+* {
+box-sizing: border-box;
+}
+
 body {
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -56,7 +60,113 @@ body {
 }
 
 
+/* css MAIN INDEX */
+
+.formato{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+.secBarra {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 15%;
+}
+
+.barraVertical {
+    background-color: rgb(252, 124, 77);
+    padding: 10px;
+    width: 100%;
+    margin: 12px 5px;
+    border: solid 5px #ea5814;
+}
+
+.listaCategorias li {
+    list-style-type: none;
+    margin: 17px 0px;
+    padding: 10px 0px;
+}
+
+.categoria {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+h2{
+    margin: 25px;
+}
+
+.productos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 85%;
+}
+
+.sec1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 50%;
+    margin: 0px 13px;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(246, 198, 183);
+    border: 1px solid rgb(237, 134, 102);
+}
+
+.sec2 {
+   display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 50%;
+    margin: 0px 15px;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(246, 198, 183);
+    border: 1px solid rgb(237, 134, 102);
+}
+
+.randoms {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.detalles{
+text-decoration: none;
+background-color: rgb(252, 124, 77);
+width: 100px;
+height: 30px;
+color: white;
+text-align: center;
+font-weight: 60;
+padding: 8px 15px;
+}
+
+.fotorandom{
+    width: 100%;
+    display: block;
+}
+
+.fotobest{
+    width: 100%;
+    display: block;
+}
+
+
+.bests{
+   width: 48%;
+   margin-bottom: 20px;
+}
+
+
+
 /* CSS LOGIN Y REGISTER */
+
 
 #main{
     display: flex;
