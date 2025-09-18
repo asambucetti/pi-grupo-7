@@ -80,13 +80,13 @@ body {
     background-color: rgb(252, 124, 77);
     padding: 10px;
     width: 100%;
-    margin: 12px 5px;
-    border: solid 5px #ea5814;
+    margin: 10px 5px;
+    border: solid 2px #ea5814;
 }
 
 .listaCategorias li {
     list-style-type: none;
-    margin: 17px 0px;
+    margin: 10px 0px;
     padding: 10px 0px;
 }
 
@@ -97,70 +97,91 @@ body {
 }
 
 h2{
-    margin: 25px;
+    width: 100%;
+    color: white;
+    text-align: center;
 }
+
+
 
 .productos {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
     width: 85%;
+    color: white;
 }
 
 .sec1{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    width: 50%;
-    margin: 0px 13px;
-    justify-content: space-between;
+    justify-content: center;
+    width: 82vw;
+    margin: 10px;
+    margin-left: 20px;
     padding: 10px;
     background-color: rgb(246, 198, 183);
-    border: 1px solid rgb(237, 134, 102);
 }
+
+
 
 .sec2 {
-   display: flex;
+    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    width: 50%;
-    margin: 0px 15px;
-    justify-content: space-between;
+    justify-content: center;
+    width: 82vw;
+    margin: 10px;
+    margin-left: 20px;
     padding: 10px;
     background-color: rgb(246, 198, 183);
-    border: 1px solid rgb(237, 134, 102);
 }
 
+
 .randoms {
-    width: 48%;
-    margin-bottom: 20px;
+   width: 45%;
+   margin-bottom: 55px;
+   margin-top: 55px;
+   margin-left: 55px;
+}
+
+.randoms p{
+    width:75%;
 }
 
 .detalles{
-text-decoration: none;
-background-color: rgb(252, 124, 77);
-width: 100px;
-height: 30px;
-color: white;
-text-align: center;
-font-weight: 60;
-padding: 8px 15px;
+    text-decoration: none;
+    background-color: rgb(252, 124, 77);
+    width: 100px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    font-weight: 60;
+    padding: 8px 15px;
 }
 
 .fotorandom{
-    width: 100%;
-    display: block;
+    width: 75%;
+    height: 75%;
 }
 
 .fotobest{
-    width: 100%;
-    display: block;
+    width: 75%;
+    height: 75%;
 }
 
 
 .bests{
-   width: 48%;
-   margin-bottom: 20px;
+   width: 45%;
+   margin-bottom: 55px;
+   margin-top: 55px;
+   margin-left: 55px;
+}
+
+
+.bests p{
+    width:75%;
 }
 
 
