@@ -224,47 +224,55 @@ h2{
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
-    width: 80vw;
+    width: 100%;
 }
 
 
-
-.fotoflynnpaff{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 300px;
-    margin-bottom: 400px;
-    margin-top: 20px;
-    border-radius: 10px;
-    margin-left: 70px;
-}
-
-.fotoflynnpaff img{
-    box-shadow: 0 20px 20px rgba(57, 56, 56, 0.1);
-    height: 400px;
-}
 
 .infoproducto{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    width: 350px;
     margin: 0;
     padding: 0;
+    width: 85%;
 }
-
-article{
-    width: 380px;
-    text-align: left;
+.fotoflynnpaff{
+    display: flex;
+    align-self: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 35%;
+    margin-top: 140px;
 }
-
 .tituloflynnpaff{
     font-weight: 600px;
     color: black;
     margin-top: 40px;
+}
+.fotoflynnpaff img{
+    box-shadow: 0 20px 20px rgba(57, 56, 56, 0.1);
+    height: 400px;
+}
+
+
+.desc{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    width: 60%;
+}
+
+
+
+.secRev {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 85%;
+    justify-content: center;
+    align-items: center;
 }
 
 .reviews{

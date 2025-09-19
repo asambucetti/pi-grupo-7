@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,19 +11,18 @@
 
     <header id="header">
         <section class="logo">
-            <a href="index.html"><img src="./img/logopagina.png" alt="Logo"></a>
+            <a href="index.html"><img src="./img/logopagina.png"  alt="Logo"></a>
         </section>
 
         <div>
             <form action="./search-results.html" method="get">
-                <input type="text" name="buscador" input="Buscar producto" placeholder="Buscar producto"
-                    class="buscador">
+                <input type="text" name="buscador" input="Buscar producto" placeholder="Buscar producto" class="buscador">
                 <button type="button" class="lupita">🔍</button>
             </form>
         </div>
 
 
-
+        
         <nav class="barraHeader">
             <ul class="menuGeneral">
                 <li><a href="./index.html" class="menu">Home</a></li>
@@ -35,19 +33,57 @@
         </nav>
     </header>
 
-    <section class="secBarra">
-        <nav class="barraVertical">
-            <h2>Categorías</h2>
-            <ul class="listaCategorias">
-                <li><a href="./category.html" class="categoria">Caramelos</a></li>
-                <li><a href="./category.html" class="categoria">Chocolates</a></li>
-                <li><a href="./category.html" class="categoria">Alfajores</a></li>
-                <li><a href="./category.html" class="categoria">Gomitas</a></li>
-                <li><a href="./category.html" class="categoria">Chicles</a></li>
-            </ul>
-        </nav>
-    </section>
+        <aside class="secBarra">
+            <nav class="barraVertical">
+                <h2>Categorías</h2>
+                <ul class="listaCategorias">
+                    <li><a href="./category.html" class="categoria">Caramelos</a></li>
+                    <li><a href="./category.html" class="categoria">Chocolates</a></li>
+                    <li><a href="./category.html" class="categoria">Alfajores</a></li>
+                    <li><a href="./category.html" class="categoria">Gomitas</a></li>
+                    <li><a href="./category.html" class="categoria">Chicles</a></li>
+                </ul>
+            </nav>
+        </aside>
 
+    <main class="productos">
+        <section class="sec1">
+            <h2>Resultado de busqueda para "Chicles"</h2>
+            <h2>No hay resultado de busqueda para "Chicles"</h2>
+            <article class="randoms">
+                <img class="fotorandom" src="./img/havanna.jpeg" alt="Alfajor Havanna">
+                <h3>Alfajor Havanna</h3>
+                <p>El clásico alfajor de dulce de leche cubierto de chocolate con leche.</p>
+                <p>Precio: $2500</p>
+                <a class="detalles" href="./product.html">VER DETALLES</a>
+            </article>
+
+            <article class="randoms">
+                <img class="fotorandom" src="./img/flynnprin.jpg" alt="Flynn Paff">
+                <h3>Flynn Paff</h3>
+                <p>Caramelo masticable clásico, suave y con sabor a tutti fruti</p>
+                <p>Precio: $1200</p>
+                <a class="detalles" href="./product.html">VER DETALLES</a>
+            </article>
+            <article class="randoms">
+                <img class="fotorandom" src="./img/milka.webp" alt="Chocolate Milka">
+                <h3>Chocolate Milka</h3>
+                <p>Chocolate con leche suave y cremoso 20 gr.</p>
+                <p>Precio: $4500</p>
+                <a class="detalles" href="./product.html">VER DETALLES</a>
+            </article>
+            <article class="randoms">
+                <img class="fotorandom" src="./img/sourpatch.webp" alt="Sour Patch">
+                <h3>Sour Patch</h3>
+                <p>Gomitas ácidas en forma de ositos, cubiertas de azúcar.</p>
+                <p>Precio: $1200</p>
+                <a class="detalles" href="./product.html">VER DETALLES</a>
+        </section>
+    </main>
+
+          
+
+    
 
     <footer>
         <nav>
@@ -61,4 +97,6 @@
             </ul>
         </nav>
     </footer>
+
 </body>
+</html>
