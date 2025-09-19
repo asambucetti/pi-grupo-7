@@ -84,6 +84,10 @@ body {
     border: solid 2px #ea5814;
 }
 
+.barraVertical h2{
+    color: white;
+}
+
 .listaCategorias li {
     list-style-type: none;
     margin: 10px 0px;
@@ -91,14 +95,14 @@ body {
 }
 
 .categoria {
-    text-decoration: none;
     color: white;
     font-size: 17px;
+    text-decoration: underline;
 }
 
 h2{
     width: 100%;
-    color: white;
+    color: black;
     text-align: center;
 }
 
@@ -109,7 +113,7 @@ h2{
     flex-direction: column;
     flex-wrap: nowrap;
     width: 85%;
-    color: white;
+    color: black;
 }
 
 .sec1{
@@ -121,7 +125,9 @@ h2{
     margin: 10px;
     margin-left: 20px;
     padding: 10px;
-    background-color: rgb(246, 198, 183);
+    background-color: white;
+    margin-bottom: 40px;
+    box-shadow: 0 20px 20px rgba(57, 56, 56, 0.1);
 }
 
 
@@ -135,7 +141,9 @@ h2{
     margin: 10px;
     margin-left: 20px;
     padding: 10px;
-    background-color: rgb(246, 198, 183);
+    background-color: white;
+    box-shadow: 0 20px 20px rgba(57, 56, 56, 0.1);
+    border-top: black;
 }
 
 
@@ -215,8 +223,8 @@ h2{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
-    background-color: #ebe7ea;
+    flex-direction: row;
+    width: 80vw;
 }
 
 
@@ -225,7 +233,7 @@ h2{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    width: 320px;
+    width: 300px;
     margin-bottom: 400px;
     margin-top: 20px;
     border-radius: 10px;
@@ -243,10 +251,9 @@ h2{
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    width: 400px;
+    width: 350px;
     margin: 0;
     padding: 0;
-
 }
 
 article{
@@ -326,6 +333,73 @@ footer{
 }
 
 
+
+/* CSS search results */
+.tituloresultados{
+    text-align: center;
+    color: black;
+    width: 100%;
+}
+
+/* Category.html CARAMELOS */
+.titulocaramelos{
+    text-align: center;
+    width: 100%;
+    color: rgb(252, 124, 77);
+
+}
+
+.caramelos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 80vw;
+    margin: 0px 13px;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+
+.categorycaramelos{
+    width: 48%;
+    margin-bottom: 50px;
+    color: black;
+}
+
+.detalles{
+text-decoration: none;
+background-color: rgb(252, 124, 77);
+width: 100px;
+height: 30px;
+color: white;
+text-align: center;
+font-weight: 60;
+padding: 8px 15px;
+}
+
+.fotocaramelos{
+    display: block;
+    width: 75%;
+    height: 75%;
+}
+
+
+
+.panas{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+
+
+
+
+
+
 /* RESPONSIVE */
 
 /* Estilos tablet 768px */
@@ -337,6 +411,7 @@ footer{
         list-style-type: none;
     }
 }
+
 
 
 
