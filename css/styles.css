@@ -1,5 +1,5 @@
 * {
-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -9,7 +9,7 @@ body {
     margin: 0px;
 }
 
-#header{
+#header {
     background-color: rgb(252, 124, 77);
     height: 100px;
     display: flex;
@@ -19,23 +19,23 @@ body {
     align-items: center;
 }
 
-.logo img{
+.logo img {
     height: 100px;
 }
 
-.buscador{
+.buscador {
     width: 300px;
     height: 30px;
     font-size: 15px;
 }
 
-.lupita{
+.lupita {
     width: 42px;
     height: 36px;
 }
 
 
-.menuGeneral{
+.menuGeneral {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
@@ -62,7 +62,7 @@ body {
 
 /* css MAIN INDEX */
 
-.formato{
+.formato {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -83,7 +83,7 @@ body {
     margin: 10px 5px;
 }
 
-.barraVertical h2{
+.barraVertical h2 {
     color: white;
 }
 
@@ -99,7 +99,7 @@ body {
     text-decoration: none;
 }
 
-h2{
+h2 {
     width: 100%;
     color: black;
     text-align: center;
@@ -115,7 +115,7 @@ h2{
     color: black;
 }
 
-.sec1{
+.sec1 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -148,17 +148,17 @@ h2{
 
 
 .randoms {
-   width: 45%;
-   margin-bottom: 55px;
-   margin-top: 55px;
-   margin-left: 55px;
+    width: 45%;
+    margin-bottom: 55px;
+    margin-top: 55px;
+    margin-left: 55px;
 }
 
-.randoms p{
-    width:75%;
+.randoms p {
+    width: 75%;
 }
 
-.detalles{
+.detalles {
     text-decoration: none;
     background-color: rgb(252, 124, 77);
     width: 100px;
@@ -169,37 +169,35 @@ h2{
     padding: 8px 15px;
 }
 
-.fotorandom{
+.fotorandom {
     width: 75%;
     height: 75%;
     box-shadow: 0 30px 30px rgba(57, 56, 56, 0.1);
 }
 
-.fotobest{
+.fotobest {
     width: 75%;
     height: 75%;
     box-shadow: 0 30px 30px rgba(57, 56, 56, 0.1);
 }
 
 
-.bests{
-   width: 45%;
-   margin-bottom: 55px;
-   margin-top: 55px;
-   margin-left: 55px;
+.bests {
+    width: 45%;
+    margin-bottom: 55px;
+    margin-top: 55px;
+    margin-left: 55px;
 }
 
 
-.bests p{
-    width:75%;
+.bests p {
+    width: 75%;
 }
 
 
 
 /* CSS LOGIN Y REGISTER */
-
-
-#main{
+#main {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -209,10 +207,7 @@ h2{
 
 }
 
-/* no entiendo si para que este centrada 100% tengo que poner 100vh, porque en realidad me hace scrollear en la pantalla */
-
-
-#main form{
+#main form {
     background-color: rgb(251, 190, 143);
     padding: 10%;
     border-radius: 20px;
@@ -223,8 +218,7 @@ h2{
 
 
 /* CSS PRODUCT */
-
-.mainflynpaff{
+.mainflynpaff {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -232,9 +226,7 @@ h2{
     width: 100%;
 }
 
-
-
-.infoproducto{
+.infoproducto {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -242,7 +234,8 @@ h2{
     padding: 0;
     width: 85%;
 }
-.fotoflynnpaff{
+
+.fotoflynnpaff {
     display: flex;
     align-self: flex-start;
     flex-wrap: wrap;
@@ -250,26 +243,26 @@ h2{
     width: 35%;
     margin-top: 90px;
 }
-.tituloflynnpaff{
+
+.tituloflynnpaff {
     font-weight: 600px;
     color: black;
     margin-top: 150px;
 }
-.fotoflynnpaff img{
+
+.fotoflynnpaff img {
     box-shadow: 0 20px 20px rgba(57, 56, 56, 0.1);
     height: 400px;
 }
 
 
-.desc{
+.desc {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     width: 60%;
 }
-
-
 
 .secRev {
     display: flex;
@@ -280,7 +273,7 @@ h2{
     align-items: center;
 }
 
-.reviews{
+.reviews {
     font-weight: 600px;
     color: black;
     margin-top: 100px;
@@ -291,33 +284,32 @@ h2{
     border-radius: 10px;
 }
 
-.tituloreviews{
+.tituloreviews {
     text-decoration: underline;
 }
 
-.comentarioflynnpaff{
+.comentarioflynnpaff {
     font-style: italic;
     color: #333;
     margin: 10px 0;
 }
 
 
-.usuario1{
-    background-color: rgb(249, 196, 178);
-    padding: 10px;
-    margin-bottom: 20px
-    
-}
-
-.usuario2{
+.usuario1 {
     background-color: rgb(249, 196, 178);
     padding: 10px;
     margin-bottom: 20px
 }
 
+.usuario2 {
+    background-color: rgb(249, 196, 178);
+    padding: 10px;
+    margin-bottom: 20px
+}
 
 
-footer{
+
+footer {
     color: white;
     background-color: rgb(250, 168, 138);
     margin-top: 10px;
@@ -349,23 +341,23 @@ footer{
 
 
 /* CSS search results */
-.tituloresultados{
+.tituloresultados {
     text-align: center;
     color: black;
     width: 100%;
 }
 
-.productossearch{
+.productossearch {
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
     flex-wrap: nowrap;
-    width: 100%; 
+    width: 100%;
     color: black;
 }
 
 
 /* Category.html CARAMELOS */
-.titulocaramelos{
+.titulocaramelos {
     text-align: center;
     width: 100%;
     color: rgb(252, 124, 77);
@@ -374,7 +366,7 @@ footer{
 
 }
 
-.caramelos{
+.caramelos {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -387,24 +379,24 @@ footer{
 }
 
 
-.categorycaramelos{
+.categorycaramelos {
     width: 48%;
     margin-bottom: 50px;
     color: black;
 }
 
-.detalles{
-text-decoration: none;
-background-color: rgb(252, 124, 77);
-width: 100px;
-height: 30px;
-color: white;
-text-align: center;
-font-weight: 60;
-padding: 8px 15px;
+.detalles {
+    text-decoration: none;
+    background-color: rgb(252, 124, 77);
+    width: 100px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    font-weight: 60;
+    padding: 8px 15px;
 }
 
-.fotocaramelos{
+.fotocaramelos {
     display: block;
     width: 75%;
     height: 75%;
@@ -431,7 +423,7 @@ padding: 8px 15px;
 @media(max-width: 768px) {
 
 
-    .barraHeader ul{
+    .barraHeader ul {
         align-items: center;
         list-style-type: none;
     }
@@ -440,23 +432,21 @@ padding: 8px 15px;
 
 
 
-
 /* Estilos telefono 420px */
 @media(max-width: 420px) {
-    
 
     /* ESTILO P HEADER */
-    #header{
+    #header {
         height: auto;
         flex-direction: column;
         padding: 10px;
     }
 
-    .barraHeader{
+    .barraHeader {
         flex-direction: column;
     }
-    
-    .barraHeader ul li{
+
+    .barraHeader ul li {
         margin-bottom: 5px;
         width: 100%;
         height: 25px;
@@ -467,14 +457,103 @@ padding: 8px 15px;
     }
 
 
+    /* ESTILO P FOOTER */
+    .footerNav{
+        height: auto;
+        flex-direction: row;
+        padding: 10px;
+    }
+
+    .footerNav li{
+        width: 100%;
+        height: 15px;
+        font-size: 15px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+
+    .footerPalo a{
+        display: none;
+    }
+
+    .footerMail{
+        padding: 0px;
+        margin-top: 10px;
+    }
+
+
+    /* ESTILO BARRA HEADER */
+    .secBarra {
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    /* ESTILO P CATEGORY.HTML */
+    .caramelos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80vw;
+    }
+
+    .categorycaramelos{
+        margin-bottom: 160px;
+    }
+
+
+    /* ESTILO P INDEX.HTML */
+    .productos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80vw;
+        padding: 0px;
+    }
+
+
+    .sec2 h2{
+        margin-bottom: 0px;
+    }
+
+    .sec1 h2{
+        margin-bottom: 0px;
+    }
+
+    .fotorandom{
+        width: 100%;
+        height: 50%;
+    }
+
+    .fotobest{
+        width: 100%;
+        height: 50%;
+    }
+
+    .randoms{
+        margin-bottom: 60px;
+    }
+
+    .bests {
+        margin-bottom: 60px;
+    }
 
     /* ESTILO P PRODUCT.HTML */
     .fotoflynnpaff img {
         height: auto;
         width: 100vw;
     }
-        /* este style de fotoflynpaff es tentativo. no entendemos como hacer que la foto ewntre para el celu*/
+    /* este style de fotoflynpaff es tentativo. no entendemos como hacer que la foto ewntre para el celu*/
+
+
+    /* FORMULARIOS */
+    #main form{
+        width: 95%;
+        margin: 20px auto;
+        padding: 15px;
+    }
+
 
 }
-
-
