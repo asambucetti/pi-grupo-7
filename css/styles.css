@@ -81,7 +81,6 @@ body {
     padding: 10px;
     width: 100%;
     margin: 10px 5px;
-    border: solid 2px #ea5814;
 }
 
 .barraVertical h2{
@@ -97,7 +96,7 @@ body {
 .categoria {
     color: white;
     font-size: 17px;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 h2{
@@ -127,6 +126,7 @@ h2{
     padding: 10px;
     background-color: white;
     margin-bottom: 40px;
+    background-color: rgb(250, 250, 250);
     box-shadow: 0 20px 20px rgba(57, 56, 56, 0.1);
 }
 
@@ -141,9 +141,9 @@ h2{
     margin: 10px;
     margin-left: 20px;
     padding: 10px;
-    background-color: white;
-    box-shadow: 0 20px 20px rgba(57, 56, 56, 0.1);
+    background-color: rgb(250, 250, 250);
     border-top: black;
+    box-shadow: 0 20px 20px rgba(57, 56, 56, 0.1);
 }
 
 
@@ -172,11 +172,13 @@ h2{
 .fotorandom{
     width: 75%;
     height: 75%;
+    box-shadow: 0 30px 30px rgba(57, 56, 56, 0.1);
 }
 
 .fotobest{
     width: 75%;
     height: 75%;
+    box-shadow: 0 30px 30px rgba(57, 56, 56, 0.1);
 }
 
 
@@ -246,13 +248,12 @@ h2{
     flex-wrap: wrap;
     flex-direction: row;
     width: 35%;
-    margin-top: 140px;
+    margin-top: 90px;
 }
 .tituloflynnpaff{
     font-weight: 600px;
     color: black;
-    margin-top: 40px;
-    margin-bottom: 150px;
+    margin-top: 150px;
 }
 .fotoflynnpaff img{
     box-shadow: 0 20px 20px rgba(57, 56, 56, 0.1);
@@ -346,6 +347,7 @@ footer{
 
 
 
+
 /* CSS search results */
 .tituloresultados{
     text-align: center;
@@ -367,6 +369,8 @@ footer{
     text-align: center;
     width: 100%;
     color: rgb(252, 124, 77);
+    margin-top: 45px;
+    margin-bottom: 50px;
 
 }
 
@@ -374,13 +378,12 @@ footer{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    width: 80vw;
-    margin: 0px 13px;
-    justify-content: space-between;
-    padding: 10px;
+    justify-content: center;
+    width: 85%;
+    margin: 0px;
+    padding: 0px;
     background-color: white;
-    margin-left: 60px;
-    margin-top: 15px;
+
 }
 
 
@@ -405,16 +408,17 @@ padding: 8px 15px;
     display: block;
     width: 75%;
     height: 75%;
+    box-shadow: 0 20px 20px rgba(57, 56, 56, 0.1);
 }
 
 
-
-.panas{
+.mainCategory {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
 }
-
 
 
 
