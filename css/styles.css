@@ -81,6 +81,7 @@ body {
     padding: 10px;
     width: 100%;
     margin: 10px 5px;
+    border-radius: 12px;
 }
 
 .barraVertical h2 {
