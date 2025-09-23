@@ -265,6 +265,14 @@ h2 {
     width: 60%;
 }
 
+.disponible{
+    color: green;
+}
+
+.stock{
+    color: black;
+}
+
 .secRev {
     display: flex;
     flex-wrap: wrap;
