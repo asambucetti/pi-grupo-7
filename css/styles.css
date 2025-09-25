@@ -87,6 +87,8 @@ body {
 
 .barraVertical h2 {
     color: white;
+    width: 100%;
+    text-align: center;
 }
 
 .listaCategorias li {
@@ -99,12 +101,6 @@ body {
     color: white;
     font-size: 17px;
     text-decoration: none;
-}
-
-h2 {
-    width: 100%;
-    color: black;
-    text-align: center;
 }
 
 
@@ -126,37 +122,27 @@ h2 {
     margin: 10px;
     margin-left: 20px;
     padding: 10px;
-    background-color: white;
     margin-bottom: 40px;
     background-color: rgb(250, 250, 250);
     box-shadow: 0 20px 20px rgba(57, 56, 56, 0.1);
 }
 
-
-
-.sec2 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    width: 82vw;
-    margin: 10px;
-    margin-left: 20px;
-    padding: 10px;
-    background-color: rgb(250, 250, 250);
-    border-top: black;
-    box-shadow: 0 20px 20px rgba(57, 56, 56, 0.1);
+.titulosgenerales {
+    text-align: center;
+    width: 100%;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    font-size: 30px;
 }
 
-
-.randoms {
+.articulos {
     width: 45%;
     margin-bottom: 55px;
-    margin-top: 55px;
+    margin-top: 20px;
     margin-left: 55px;
 }
 
-.randoms p {
+.articulos p {
     width: 75%;
 }
 
@@ -184,10 +170,10 @@ h2 {
 }
 
 
-.bests {
+{
     width: 45%;
     margin-bottom: 55px;
-    margin-top: 55px;
+    margin-top: 20px;
     margin-left: 55px;
 }
 
@@ -323,7 +309,6 @@ h2 {
 footer {
     color: white;
     background-color: rgb(250, 168, 138);
-    margin-top: 10px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -331,7 +316,6 @@ footer {
 .footerNav {
     list-style: none;
     padding: 10px;
-
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -352,11 +336,12 @@ footer {
 
 
 /* CSS search results */
-.tituloresultados {
-    text-align: center;
-    color: black;
-    width: 100%;
+.sec1 h2 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 15px;
 }
+
 
 .productossearch {
     display: flex;
@@ -368,33 +353,8 @@ footer {
 
 
 /* Category.html CARAMELOS */
-.titulocaramelos {
-    text-align: center;
-    width: 100%;
-    color: rgb(252, 124, 77);
-    margin-top: 45px;
-    margin-bottom: 50px;
-
-}
-
-.caramelos {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    width: 85%;
-    margin: 0px;
-    padding: 0px;
-    background-color: white;
-
-}
 
 
-.categorycaramelos {
-    width: 48%;
-    margin-bottom: 50px;
-    color: black;
-}
 
 .detalles {
     text-decoration: none;
@@ -418,9 +378,10 @@ footer {
 .mainCategory {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    align-items: flex-start;
     width: 100%;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 
@@ -502,7 +463,7 @@ footer {
     }
 
     /* ESTILO P CATEGORY.HTML */
-    .caramelos{
+    .sec1{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -525,13 +486,6 @@ footer {
     }
 
 
-    .sec2 h2{
-        margin-bottom: 0px;
-    }
-
-    .sec1 h2{
-        margin-bottom: 0px;
-    }
 
     .fotorandom{
         width: 100%;
@@ -543,13 +497,10 @@ footer {
         height: 50%;
     }
 
-    .randoms{
+    .articulos{
         margin-bottom: 60px;
     }
 
-    .bests {
-        margin-bottom: 60px;
-    }
 
     /* ESTILO P PRODUCT.HTML */
     .fotoflynnpaff img {
