@@ -5,8 +5,9 @@
 body {
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: white;
+    background-image: url(../img/fondobody.png);
     margin: 0px;
+
 }
 
 #header {
@@ -225,6 +226,7 @@ h2 {
     justify-content: center;
     flex-direction: row;
     width: 100%;
+    background-color: white;
 }
 
 .infoproducto {
