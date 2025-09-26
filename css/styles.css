@@ -18,6 +18,7 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
 }
 
 .logo img {
@@ -111,7 +112,6 @@ body {
     flex-direction: column;
     flex-wrap: nowrap;
     width: 85%;
-    color: black;
 }
 
 .sec1 {
@@ -412,9 +412,6 @@ footer {
         width: 80vw;
     }
 
-    .categorycaramelos{
-        margin-bottom: 160px;
-    }
 
 
     /* ESTILO P INDEX.HTML */
