@@ -448,6 +448,7 @@ footer {
         margin-left: 10px;
         margin-bottom: 15px;
     }
+    /* para login voy a tener que poner margin left 5px */
 
     .secBarra h2{
         justify-content: center;
@@ -554,14 +555,36 @@ footer {
         flex-direction: column;
     }
 
-
     #main form{
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         flex-direction: column;
+        align-self: center;
+        margin-left: 0px;
+        margin-top: 0px;
+        width:90%;
+        height: 40%;
+    }
+
+    .secBarraForm {
+        flex-direction: column;
+        width: 95vw;
+        margin-left: 5px;
+        margin-bottom: 15px;
+    }
+    /* para login voy a tener que poner margin left 5px */
+
+    .secBarraForm h2{
+        justify-content: center;
+    }
+
+    .secBarraForm ul li{
+        display: flex;
+        flex-wrap: nowrap;
         align-items: center;
-        margin: 0px;
+        justify-content: center;
     }
 
 
+ 
 }
