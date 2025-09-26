@@ -83,7 +83,7 @@ body {
     background-color: rgb(252, 124, 77);
     padding: 10px;
     width: 100%;
-    margin: 10px 5px;
+    margin: 10px 0px;
     border-radius: 12px;
 }
 
@@ -119,9 +119,7 @@ body {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    width: 82vw;
-    margin: 10px;
-    margin-left: 20px;
+    width: 100%;
     padding: 10px;
     margin-bottom: 40px;
     background-color: rgb(250, 250, 250);
@@ -194,38 +192,19 @@ body {
 
 /* CSS PRODUCT */
 
-.mainflynpaff {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: row;
-    width: 100%;
-    height: 100%;
-    background-color: white;
-}
-
-.infoproducto {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-    width: 85%;
-}
-
 .fotoflynnpaff {
     display: flex;
     align-self: flex-start;
     flex-wrap: wrap;
     flex-direction: row;
     width: 35%;
-    margin-top: 90px;
-    padding-left: 45px;
+    margin-top: 80px;
+    padding-left: 30px;
 }
 
 .fotoflynnpaff img {
     box-shadow: 0 20px 20px rgba(57, 56, 56, 0.1);
-    height: 400px;
+    width: 95%;
 }
 
 
@@ -234,13 +213,12 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     padding-left: 70px;
-   
+    font-size: 20px;
 }
 
 .desc h2{
     font-weight: 600px;
-    color: black;
-    margin-top: 100px;
+    margin-top: 60px;
     text-align: left;
     font-size: 35px;
     margin-bottom: 0px;
@@ -252,8 +230,9 @@ body {
 }
 
 .desc h4{
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 0px;
+    color: rgb(252, 124, 77);
 }
 
 
@@ -265,29 +244,7 @@ body {
     color: black;
 }
 
-.secRev {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 85%;
-    justify-content: center;
-    align-items: center;
-}
 
-.reviews {
-    font-weight: 600px;
-    color: black;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    background-color: rgb(252, 124, 77);
-    background-color: rgb(250, 176, 150);
-    padding: 15px;
-    border-radius: 10px;
-}
-
-.tituloreviews {
-    text-decoration: underline;
-}
 
 .comentarioflynnpaff {
     font-style: italic;
@@ -297,16 +254,13 @@ body {
 
 
 .usuario1 {
-    background-color: rgb(249, 196, 178);
+    background-color: rgb(244, 205, 161);
     padding: 10px;
+    border-radius: 12px;
     margin-bottom: 20px
 }
 
-.usuario2 {
-    background-color: rgb(249, 196, 178);
-    padding: 10px;
-    margin-bottom: 20px
-}
+
 
 
 
@@ -444,9 +398,9 @@ footer {
     /* ESTILO ASIDE */
     .secBarra {
         flex-direction: column;
-        width: 95vw;
-        margin-left: 10px;
+        width: 100%;
         margin-bottom: 15px;
+        padding: 5px;
     }
     /* para login voy a tener que poner margin left 5px */
 
@@ -465,7 +419,6 @@ footer {
         padding-left: 0px;
     }
 
-   
 
 
 
@@ -474,7 +427,7 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 95vw;
+        width: 100%;
     }
 
     
@@ -482,7 +435,7 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 95vw;
+        width: 100%;
     }
 
 
@@ -505,44 +458,32 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 100vw;
-        margin-left: 10px;
+        width: 100%;
+        padding: 5px;
     }
 
    
 
 
     /* ESTILO P CATEGORY.HTML */
-    .secaramelos {
-        margin-left: 30px;
-    }
+
 
 
     /* ESTILO P PRODUCT.HTML */
-    .mainflynpaff{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-
     .fotoflynnpaff {
         width: 100%;
-        height: auto;
-        max-width: 300px;
-        margin-left: 30px;
     }
     
     .infoproducto{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 95vw;
+        width: 100%;
     }
 
     .desc {
         width: 100%;
-        padding-left: 40px;
+        padding-left: 0px;
     }
 
 
@@ -553,6 +494,7 @@ footer {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+        height: 100%;
     }
 
     #main form{
@@ -560,30 +502,19 @@ footer {
         flex-wrap: nowrap;
         flex-direction: column;
         align-self: center;
-        margin-left: 0px;
-        margin-top: 0px;
-        width:90%;
+        margin: 0px;
+        width:100%;
         height: 40%;
     }
 
-    .secBarraForm {
-        flex-direction: column;
-        width: 95vw;
-        margin-left: 5px;
-        margin-bottom: 15px;
-    }
-    /* para login voy a tener que poner margin left 5px */
 
-    .secBarraForm h2{
-        justify-content: center;
+    .bordeForm{
+        padding: 5px;
+        width: 100%;
     }
 
-    .secBarraForm ul li{
-        display: flex;
-        flex-wrap: nowrap;
-        align-items: center;
-        justify-content: center;
-    }
+
+    /* SEARCH RESULTS */
 
 
  
