@@ -174,18 +174,22 @@ body {
     align-items: flex-start;
     flex-wrap: nowrap;
     flex-direction: row;
-    min-height: 100vh;
-
+    height: 100vh;
 }
 
 #main form {
     background-color: rgb(251, 190, 143);
-    padding: 10%;
+    padding: 8%;
     border-radius: 20px;
-    margin-left: 300px;
+    margin-left: 350px;
     margin-top: 100px;
 }
 
+#main form h2 {
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+}
 
 
 /* CSS PRODUCT */
@@ -196,6 +200,7 @@ body {
     justify-content: center;
     flex-direction: row;
     width: 100%;
+    height: 100%;
     background-color: white;
 }
 
@@ -228,8 +233,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    align-items: left;
-    width: 60%;
     padding-left: 70px;
    
 }
@@ -326,6 +329,18 @@ footer {
     flex-direction: row;
 }
 
+.footerProduct{
+    list-style: none;
+    padding: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
 .footerMail {
     color: rgb(49, 49, 255);
     padding-left: 50px;
@@ -353,19 +368,6 @@ footer {
 
 
 /* RESPONSIVE */
-
-/* Estilos tablet 768px */
-@media(max-width: 768px) {
-
-
-    .barraHeader ul {
-        align-items: center;
-        list-style-type: none;
-    }
-}
-
-
-
 
 /* Estilos telefono 420px */
 @media(max-width: 420px) {
@@ -419,58 +421,146 @@ footer {
     }
 
 
-    /* ESTILO BARRA HEADER */
-    .secBarra {
-        flex-direction: column;
-        width: 100vw;
+    /* ESTILO FOOTER PRODUCT */
+    .footerProduct{
+        height: auto;
+        flex-direction: row;
+        padding: 10px;
     }
 
-    /* ESTILO P CATEGORY.HTML */
-    .sec1{
+    .footerProduct li{
+        width: 100%;
+        height: 15px;
+        font-size: 15px;
+
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 80vw;
+        justify-content: center;
+        align-items: center; 
     }
+
+
+
+
+    /* ESTILO ASIDE */
+    .secBarra {
+        flex-direction: column;
+        width: 95vw;
+        margin-left: 10px;
+        margin-bottom: 15px;
+    }
+
+    .secBarra h2{
+        justify-content: center;
+    }
+
+    .secBarra ul li{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .listaCategorias {
+        padding-left: 0px;
+    }
+
+   
 
 
 
     /* ESTILO P INDEX.HTML */
+    .main1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 95vw;
+    }
+
+    
+    .sec1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 95vw;
+    }
+
+
+    .articulos {
+        width: 80%;
+        margin-bottom: 55px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .articulos p {
+        width: 100%;
+    }
+
+    .fotos{
+        width: 100%;
+    }
+
     .productos{
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        width: 80vw;
-        padding: 0px;
+        width: 100vw;
+        margin-left: 10px;
     }
 
+   
 
 
-    .fotos{
-        width: 100%;
-        height: 50%;
-    }
-
-
-    .articulos{
-        margin-bottom: 60px;
+    /* ESTILO P CATEGORY.HTML */
+    .secaramelos {
+        margin-left: 30px;
     }
 
 
     /* ESTILO P PRODUCT.HTML */
-    .fotoflynnpaff img {
-        height: auto;
-        width: 100vw;
+    .mainflynpaff{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
     }
-    /* este style de fotoflynpaff es tentativo. no entendemos como hacer que la foto ewntre para el celu*/
+
+    .fotoflynnpaff {
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+        margin-left: 30px;
+    }
+    
+    .infoproducto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 95vw;
+    }
+
+    .desc {
+        width: 100%;
+        padding-left: 40px;
+    }
+
+
 
 
     /* FORMULARIOS */
+    #main{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+
     #main form{
-        width: 95%;
-        margin: 20px auto;
-        padding: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
     }
 
 
