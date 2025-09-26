@@ -299,6 +299,8 @@ footer {
 .footerNav {
     list-style: none;
     padding: 10px;
+    margin-bottom: 0px;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
