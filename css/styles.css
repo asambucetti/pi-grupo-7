@@ -163,34 +163,23 @@ body {
 /* CSS PRODUCT */
 .articulosProduct {
     width: 100%;
-    margin-top: 20px;
     margin-left: 20px;
 }
 
 .imgFlynn {
-    height: 80%;
+    height: 100%;
 }
+
 
 .displayCaramelo {
     display: flex;
     flex-direction: row;
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
-.tituloReviews {
-    text-align: left;
-    width: 100%;
-    font-size: 30px;
-}
 
-.reviews {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    font-size: 20px;
-}
 
-.reviews h2 {
+.articulosProduct h2 {
     font-weight: 600px;
     margin-top: 60px;
     text-align: left;
@@ -198,18 +187,16 @@ body {
     margin-bottom: 0px;
 }
 
-.reviews h3 {
+.articulosProduct h3 {
     font-weight: normal;
     font-size: 25px;
 }
 
-.reviews h4 {
+.articulosProduct h4 {
     font-size: 30px;
     margin-top: 0px;
     color: rgb(252, 124, 77);
 }
-
-
 .disponible {
     color: green;
 }
@@ -218,7 +205,15 @@ body {
     color: black;
 }
 
+.reviews{
+    margin-bottom: 20px;
+}
 
+.tituloReviews {
+    text-align: left;
+    width: 100%;
+    font-size: 30px;
+}
 
 .comentarioFlynnPaff {
     font-style: italic;
@@ -315,19 +310,6 @@ footer {
         padding: 10px;
     }
 
-    .barraHeader {
-        flex-direction: column;
-    }
-
-    .barraHeader ul li {
-        margin-bottom: 5px;
-        width: 100%;
-        height: 25px;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
 
 
     /* ESTILO P FOOTER */
@@ -356,29 +338,8 @@ footer {
         margin-top: 10px;
     }
 
-
-    /* ESTILO P FOOTER PRODUCT */
-    .footerProduct {
-        height: auto;
-        flex-direction: row;
-        padding: 10px;
-    }
-
-    .footerProduct li {
-        width: 100%;
-        height: 15px;
-        font-size: 15px;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .displayCaramelo {
-        display: flex;
-        flex-direction: column;
-    }
-
+    
+   
 
     /* ESTILO ASIDE */
     .secBarra {
@@ -452,16 +413,23 @@ footer {
         width: 100%;
     }
 
-    .infoproducto {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-
     .reviews {
         width: 100%;
         padding-left: 0px;
+    }
+
+    .displayCaramelo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .articulosProduct h2 {
+    margin-top: 25px;
+    }
+
+    .tituloReviews {
+    margin-left: 30px;
+    margin-bottom: 0px;
     }
 
 
