@@ -161,10 +161,8 @@ body {
 
 
 /* CSS PRODUCT */
-
-
 .articulosProduct {
-    width: 80%;
+    width: 100%;
     margin-top: 20px;
     margin-left: 20px;
 }
@@ -176,12 +174,12 @@ body {
 .displayCaramelo {
     display: flex;
     flex-direction: row;
+    margin-top: 80px;
 }
 
 .tituloReviews {
     text-align: left;
     width: 100%;
-    margin-top: 45px;
     font-size: 30px;
 }
 
@@ -446,6 +444,10 @@ footer {
 
 
     /* ESTILO P PRODUCT.HTML */
+    .articulosProduct {
+        width: 95%;
+    }
+
     .imgFlynn {
         width: 100%;
     }
