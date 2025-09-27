@@ -42,6 +42,10 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 300px;
 }
 
 .menu {
@@ -51,20 +55,9 @@ body {
 }
 
 
-.barraHeader ul {
-    padding: 10px;
-    width: 300px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
 
-
-/* css MAIN INDEX */
-
-.mainprin {
+/* CCS INDEX Y CATEGORY Y SEARCH RESULTS*/
+.mainPrincipal {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -107,7 +100,6 @@ body {
 }
 
 
-
 .productos {
     display: flex;
     flex-direction: column;
@@ -116,7 +108,7 @@ body {
     padding: 13px;
 }
 
-.sec1 {
+.artGeneral {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -128,7 +120,7 @@ body {
     box-shadow: 0 20px 20px rgba(57, 56, 56, 0.1);
 }
 
-.titulosgenerales {
+.tituloGeneral {
     text-align: center;
     width: 100%;
     margin-top: 45px;
@@ -167,6 +159,84 @@ body {
 
 
 
+
+/* CSS PRODUCT */
+
+
+.articulosProduct {
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.imgFlynn {
+    height: 80%;
+}
+
+.displayCaramelo {
+    display: flex;
+    flex-direction: row;
+}
+
+.tituloReviews {
+    text-align: left;
+    width: 100%;
+    margin-top: 45px;
+    font-size: 30px;
+}
+
+.reviews {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.reviews h2 {
+    font-weight: 600px;
+    margin-top: 60px;
+    text-align: left;
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+
+.reviews h3 {
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.reviews h4 {
+    font-size: 30px;
+    margin-top: 0px;
+    color: rgb(252, 124, 77);
+}
+
+
+.disponible {
+    color: green;
+}
+
+.stock {
+    color: black;
+}
+
+
+
+.comentarioFlynnPaff {
+    font-style: italic;
+    color: #333;
+    margin: 10px 0;
+}
+
+
+.usuario {
+    background-color: rgb(244, 205, 161);
+    padding: 10px;
+    border-radius: 12px;
+    margin-bottom: 20px
+}
+
+
 /* CSS LOGIN Y REGISTER */
 #main {
     display: flex;
@@ -194,81 +264,15 @@ body {
 }
 
 
-/* CSS PRODUCT */
-
-.fotoflynnpaff {
-    display: flex;
-    align-self: flex-start;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 35%;
-    margin-top: 80px;
-    padding-left: 30px;
-}
-
-.fotoflynnpaff img {
-    box-shadow: 0 20px 20px rgba(57, 56, 56, 0.1);
-    width: 95%;
-}
-
-
-.desc {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    padding-left: 70px;
-    font-size: 20px;
-}
-
-.desc h2{
-    font-weight: 600px;
-    margin-top: 60px;
-    text-align: left;
-    font-size: 35px;
-    margin-bottom: 0px;
-}
-
-.desc h3{
-    font-weight: normal;
-    font-size: 25px;
-}
-
-.desc h4{
-    font-size: 30px;
-    margin-top: 0px;
-    color: rgb(252, 124, 77);
-}
-
-
-.disponible{
-    color: green;
-}
-
-.stock{
-    color: black;
-}
-
-
-
-.comentarioflynnpaff {
-    font-style: italic;
-    color: #333;
-    margin: 10px 0;
-}
-
-
-.usuario1 {
-    background-color: rgb(244, 205, 161);
-    padding: 10px;
-    border-radius: 12px;
-    margin-bottom: 20px
+/* CSS SEARCH RESULTS */
+.ocultar {
+    display: none;
 }
 
 
 
 
-
-
+/* CSS FOOTER */
 footer {
     color: white;
     background-color: rgb(250, 168, 138);
@@ -280,19 +284,6 @@ footer {
     list-style: none;
     padding: 10px;
     margin-bottom: 0px;
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: row;
-}
-
-.footerProduct{
-    list-style: none;
-    padding: 10px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -308,16 +299,6 @@ footer {
     padding-left: 15px;
     padding-right: 15px;
 }
-
-
-
-/* CSS search results */
-
-.ocultar {
-    display: none;
-}
-
-
 
 
 
@@ -352,50 +333,53 @@ footer {
 
 
     /* ESTILO P FOOTER */
-    .footerNav{
+    .footerNav {
         height: auto;
         flex-direction: row;
         padding: 10px;
     }
 
-    .footerNav li{
+    .footerNav li {
         width: 100%;
         height: 15px;
         font-size: 15px;
 
         display: flex;
         justify-content: center;
-        align-items: center; 
+        align-items: center;
     }
 
-    .footerPalo a{
+    .footerPalo a {
         display: none;
     }
 
-    .footerMail{
+    .footerMail {
         padding: 0px;
         margin-top: 10px;
     }
 
 
-    /* ESTILO FOOTER PRODUCT */
-    .footerProduct{
+    /* ESTILO P FOOTER PRODUCT */
+    .footerProduct {
         height: auto;
         flex-direction: row;
         padding: 10px;
     }
 
-    .footerProduct li{
+    .footerProduct li {
         width: 100%;
         height: 15px;
         font-size: 15px;
 
         display: flex;
         justify-content: center;
-        align-items: center; 
+        align-items: center;
     }
 
-
+    .displayCaramelo {
+        display: flex;
+        flex-direction: column;
+    }
 
 
     /* ESTILO ASIDE */
@@ -405,13 +389,12 @@ footer {
         margin-bottom: 15px;
         padding: 5px;
     }
-    /* para login voy a tener que poner margin left 5px */
 
-    .secBarra h2{
+    .secBarra h2 {
         justify-content: center;
     }
 
-    .secBarra ul li{
+    .secBarra ul li {
         display: flex;
         flex-wrap: nowrap;
         align-items: center;
@@ -423,24 +406,20 @@ footer {
     }
 
 
-
-
     /* ESTILO P INDEX.HTML */
-    .mainprin{
+    .mainPrincipal {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
     }
 
-    
-    .sec1{
+    .artGeneral {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
     }
-
 
     .articulos {
         width: 80%;
@@ -453,11 +432,11 @@ footer {
         width: 100%;
     }
 
-    .fotos{
+    .fotos {
         width: 100%;
     }
 
-    .productos{
+    .productos {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -465,60 +444,45 @@ footer {
         padding: 5px;
     }
 
-   
-
-
-    /* ESTILO P CATEGORY.HTML */
-
-
 
     /* ESTILO P PRODUCT.HTML */
-    .fotoflynnpaff {
+    .imgFlynn {
         width: 100%;
     }
-    
-    .infoproducto{
+
+    .infoproducto {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
     }
 
-    .desc {
+    .reviews {
         width: 100%;
         padding-left: 0px;
     }
 
 
-
-
-    /* FORMULARIOS */
-    #main{
+    /* ESTILO P FORMULARIOS */
+    #main {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         height: 100%;
     }
 
-    #main form{
+    #main form {
         display: flex;
         flex-wrap: nowrap;
         flex-direction: column;
         align-self: center;
         margin: 0px;
-        width:100%;
+        width: 100%;
         height: 40%;
     }
 
-
-    .bordeForm{
+    .bordeForm {
         padding: 5px;
         width: 100%;
     }
-
-
-    /* SEARCH RESULTS */
-
-
- 
 }
