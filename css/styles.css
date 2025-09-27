@@ -197,6 +197,7 @@ body {
     margin-top: 0px;
     color: rgb(252, 124, 77);
 }
+
 .disponible {
     color: green;
 }
@@ -205,7 +206,7 @@ body {
     color: black;
 }
 
-.reviews{
+.reviews {
     margin-bottom: 20px;
 }
 
@@ -338,8 +339,8 @@ footer {
         margin-top: 10px;
     }
 
-    
-   
+
+
 
     /* ESTILO ASIDE */
     .secBarra {
@@ -424,12 +425,12 @@ footer {
     }
 
     .articulosProduct h2 {
-    margin-top: 25px;
+        margin-top: 25px;
     }
 
     .tituloReviews {
-    margin-left: 30px;
-    margin-bottom: 0px;
+        margin-left: 30px;
+        margin-bottom: 0px;
     }
 
 
