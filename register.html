@@ -78,17 +78,20 @@
                 </div>
                 <div>
                     <label for="">Email:</label>
-                    <input type="email" name="emailuser" value="@gmail.com" required>
+                    <input type="email" name="emailuser" value="" id="email">
+                    <div class="validacionEmail"></div>
                 </div>
                 <br>
                 <div>
                     <label for="">Contraseña:</label>
-                    <input type="password" name="passuser" placeholder="Contraseña" required>
+                    <input type="password" name="passuser" placeholder="Contraseña" id="password">
+                    <div class="validacionPassword"></div>
                 </div>
                 <br>
                 <div>
                     <label for="">Repetir contraseña:</label>
-                    <input type="password" name="repassuser" placeholder="Contraseña">
+                    <input type="password" name="repassuser" placeholder="Contraseña" id="repassword">
+                    <div class="validacionRePassword"></div>
                 </div>
                 <br>
                 <div>
@@ -120,6 +123,8 @@
         </nav>
     </footer>
 
+    <script src="./js/saludo.js"></script>
+    <script src="./js/logout.js"></script>
 </body>
 
 </html>
