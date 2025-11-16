@@ -235,7 +235,6 @@ body {
 #main {
     display: flex;
     flex-direction: row;
-    height: 100vh;
 }
 
 #main form {
