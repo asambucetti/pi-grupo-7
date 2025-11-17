@@ -8,6 +8,8 @@ let categoriaProduct = document.querySelector (".articulosProduct p.categoria")
 let stockProdcut = document.querySelector (".articulosProduct p.disponible")
 let tagsProduct = document.querySelector (".articulosProduct p.tags")
 
+categoriaProduct.style.color = "black";
+
 fetch (productUrl)
     .then (function (response){
         return response.json();
