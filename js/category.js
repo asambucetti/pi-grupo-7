@@ -1,4 +1,8 @@
-let categoryUrl = 'https://dummyjson.com/products/category/smartphones'
+let query = location.search;
+let queryObj = new URLSearchParams(query);
+let categoriaElegida = queryObj.get("buscador");
+
+let categoryUrl = `https://dummyjson.com/products/category?q=${categoriaElegida}`
 let categoria = document.querySelector(".artGeneral");
 
 
