@@ -1,3 +1,4 @@
+//query string de product
 let query = location.search;
 let queryObj = new URLSearchParams(query);
 let productoElegido = queryObj.get("buscador");
