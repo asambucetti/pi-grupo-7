@@ -10,7 +10,7 @@ let tagsProduct = document.querySelector (".articulosProduct p.tags")
 
 fetch (productUrl)
     .then (function (response){
-        return response.json()
+        return response.json();
     })
     .then (function(data){
         console.log(data);
@@ -51,3 +51,34 @@ fetch (productUrl)
 
 
     //REVIEWS
+    let reviewsUrl = 'https://dummyjson.com/comments/1'
+    let reviewsContenido = document.querySelector(".reviews");
+
+    fetch('https://dummyjson.com/comments/1')
+        .then (function(response){
+            return response.json();
+        })
+         .then (function(data){
+            console.log(data);
+            
+            let contenido = `<h2 class="tituloReviews">REVIEWS</h2>`; 
+
+            for (let i = 0; i < data.reviews.length; i++) {
+                let review = data.reviews [i];
+            
+                contenido += `<article class="usuario">
+                        <p><strong>Usuario: ${review.reviewerName}</strong> (${review.date})
+                            <br>
+                        <p class="comentarioFlynnPaff"> "${review.comment}" </p>
+                        <br>
+                        <strong>Rating: ${"⭐️"(review.rating)}</strong>
+                        </p>
+                    </article>`;
+            }
+        
+        reviewsContenido.innerHTML = contenido
+         })
+
+        .catch(function(error){
+        console.log(error)
+    })
