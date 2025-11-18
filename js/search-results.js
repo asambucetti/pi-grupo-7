@@ -5,7 +5,7 @@ let valorBuscado = queryObj.get("buscador");
 let tituloResultados = document.querySelector(".tituloGeneral");
 let tituloNoResultados = document.querySelector(".tituloGeneral.ocultar");
 let articulos = document.querySelector(".artGeneral");
-tituloResultados.innerText = `Resultados de búsqueda para ${valorBuscado}`
+tituloResultados.innerText = `Resultados de búsqueda para: ${valorBuscado}`
 
 
 
