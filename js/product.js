@@ -18,7 +18,7 @@ fetch(productUrl)
         console.log(data);
         let tagsTexto = "";
         for (let i = 0; i < data.tags.length && i < 3; i++) {
-            tagsTexto += `${data.tags[i]}`;
+            tagsTexto += ` #${data.tags[i]}`;
         }
 
         producto.innerHTML = `
@@ -48,7 +48,7 @@ fetch(productUrl)
             let emojiRating = "";
             for (let r = 0; r < review.rating; r++) {
                 emojiRating += "⭐️";
-            }}
+            }
             reviews.innerHTML += `
                 <p><strong>Usuario: ${review.reviewerName} </strong> (${review.date})
                 </p>
@@ -56,7 +56,7 @@ fetch(productUrl)
                 <p class="comentarioFlynnPaff"> ${review.comment}</p>
                 <br>
                 <strong>${review.rating} ${emojiRating}</strong> </p>`
-            ;
+            ;}
         })
     .catch(function (error) {
         console.log('El error es: ' + error);
