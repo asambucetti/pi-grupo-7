@@ -42,9 +42,6 @@ fetch(url)
             lista.innerHTML = contenido;
 
         }
-
-        console.log(characters);
-        lista.innerHTML = characters;
     })
     .catch(function (error) {
         console.log(error)
