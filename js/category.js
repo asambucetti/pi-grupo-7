@@ -1,8 +1,8 @@
 let query = location.search;
 let queryObj = new URLSearchParams(query);
-let categoriaElegida = queryObj.get("buscador");
+let categoriaElegida = queryObj.get("category");
 
-let categoryUrl = `https://dummyjson.com/products/category?q=${categoriaElegida}`
+let categoryUrl = `https://dummyjson.com/products/category/${categoriaElegida}`
 let categoria = document.querySelector(".artGeneral");
 
 
@@ -19,7 +19,7 @@ fetch(categoryUrl)
         for (let i = 0; i < categoryProducts.length; i++) {
             categoryContenido +=
                 `<article class="articulos">
-                <img class="fotos" src="${categoryProducts[i].images[0]}" alt="${categoryProducts[i].title}">
+                <img class="fotos" src="${categoryProducts[i].thumbnail}" alt="${categoryProducts[i].title}">
                 <h3>${categoryProducts[i].title}</h3>
                 <p>${categoryProducts[i].description}</p>
                 <p>${categoryProducts[i].price}</p>
