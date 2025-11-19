@@ -5,7 +5,7 @@ let valorBuscado = queryObj.get("buscador");
 let tituloResultados = document.querySelector(".tituloGeneral");
 let tituloNoResultados = document.querySelector(".tituloGeneral.ocultar");
 let articulos = document.querySelector(".artGeneral");
-tituloResultados.innerText = `Resultados de búsqueda para: ${valorBuscado}`
+tituloResultados.innerText = `Resultados de búsqueda para: ${valorBuscado}.`
 
 
 
@@ -18,7 +18,7 @@ fetch(`https://dummyjson.com/products/search?q=${valorBuscado}`)
         let productos = data.products;
         if (productos.length == 0) {
             tituloResultados.style.display = "none";
-            tituloNoResultados.innerText = `No hay resultados para el termino "${valorBuscado}".`;
+            tituloNoResultados.innerText = `No hay resultados para el término: ${valorBuscado}.`;
             tituloNoResultados.style.display = "block";
         }
         else {
