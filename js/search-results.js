@@ -25,14 +25,15 @@ fetch(`https://dummyjson.com/products/search?q=${valorBuscado}`)
             for (let i = 0; i < productos.length; i++) {
                 let producto = productos[i];
                 articulos.innerHTML += `
-                        <article class="articulos">
-                            <img class="fotos" src="${producto.thumbnail}">
-                                <h3>${producto.title}</h3>
-                                <p>${producto.description}</p>
-                                <p>Precio: $${producto.price}</p>
-                                <a class="detalles" href="./product.html?id=${producto.id}">VER DETALLES</a>
-                        </article>
-                    `;
+                    <article class="articulos">
+                        <img class="fotos" src="${producto.thumbnail}">
+                            <h3>${producto.title}</h3>
+                            <p>${producto.description}</p>
+                            <p>Precio: $${producto.price}</p>
+                            <a class="detalles" href="./product.html?id=${producto.id}">VER DETALLES</a>
+                    </article>
+                `;
+            
             }
         }
     })
