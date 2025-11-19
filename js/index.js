@@ -36,7 +36,7 @@ fetch(urlCategorias)
         for (let i = 0; i < data.length; i++) {
 
             contenido += `
-            <li><a href="./category.html?id=${data[i]}" class="categoria">${data[i]}</a></li>`;
+            <li><a href="./category.html?category=${data[i]}" class="categoria">${data[i]}</a></li>`;
 
 
             lista.innerHTML = contenido;
