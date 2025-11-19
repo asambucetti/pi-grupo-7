@@ -31,7 +31,7 @@ fetch(productUrl)
                 </h3>
                 <h4><strong>$${data.price}</strong></h4>
                 <p class="marca"><strong>Marca:</strong> ${data.brand}</p>
-                <p class="categoria"><strong>Categoria:</strong> <a href="./category.html?category=${data.category}">
+                <p><strong>Categoria:</strong> <a href="./category.html?category=${data.category}">
                 ${data.category} </a></p>
                 <p class="disponible"><strong class="stock">Stock:</strong> ${data.stock}</p>
                 <p class="tags"><strong>${tagsTexto}</strong></p>
