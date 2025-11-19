@@ -5,8 +5,7 @@ let menu = document.querySelector(".menuGeneral");  // estoy llamando a la barri
 
 if (usuario != null) {        // solo si el usuario hizo el login
 
-    menu.innerHTML = `
-         <li><a href="#" class="menu" id="logout">Logout</a></li>
+    menu.innerHTML = `<li><a href="#" class="menu" id="logout">Logout</a></li><li><a href="#" class="menu" id="logout">Bienvenido ${usuario}</a></li>
     `
     // aca, el href y el id logout me vana. servir para dsp
 

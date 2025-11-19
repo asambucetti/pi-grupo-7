@@ -50,7 +50,7 @@ fetch(urlCategorias)
 
 let secUno = document.querySelector(".secUno");
 if (secUno) {
-    fetch("https://dummyjson.com/products/category/sports-accessories")
+    fetch("https://dummyjson.com/products/category/smartphones")
     .then(function(response){
         return response.json();
     })
