@@ -49,8 +49,9 @@ fetch(urlCategorias)
 // seccion 1 
 
 let secUno = document.querySelector(".secUno");
+let urlSecUno = "https://dummyjson.com/products/category/smartphones";
 if (secUno) {
-    fetch("https://dummyjson.com/products/category/smartphones")
+    fetch(urlSecUno)
     .then(function(response){
         return response.json();
     })
@@ -78,8 +79,9 @@ if (secUno) {
 
 // seccion 2 
 let secDos = document.querySelector(".secDos");
+let urlSecDos = "https://dummyjson.com/products/category/kitchen-accessories";
 if (secDos) {
-    fetch("https://dummyjson.com/products/category/kitchen-accessories")
+    fetch(urlSecDos)
     .then(function(response){
         return response.json();
     })

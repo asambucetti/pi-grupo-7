@@ -7,10 +7,10 @@ let tituloNoResultados = document.querySelector(".tituloGeneral.ocultar");
 let articulos = document.querySelector(".artGeneral");
 tituloResultados.innerText = `Resultados de búsqueda para: ${valorBuscado}.`
 
+let urlSearchResults = `https://dummyjson.com/products/search?q=${valorBuscado}`
 
 
-
-fetch(`https://dummyjson.com/products/search?q=${valorBuscado}`)
+fetch(urlSearchResults)
     .then(function (response) {
         return response.json();
     })
