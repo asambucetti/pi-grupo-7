@@ -18,7 +18,7 @@ fetch(productUrl)
         console.log(data);
         let tagsTexto = "";
         for (let i = 0; i < data.tags.length && i < 3; i++) {
-            tagsTexto += `#${data.tags[i]}`;
+            tagsTexto += ` #${data.tags[i]}`;
         }
 
         // condicional p. marcas no definidas
