@@ -33,7 +33,7 @@ fetch(urlSearchResults)
                             <a class="detalles" href="./product.html?id=${producto.id}">VER DETALLES</a>
                     </article>
                 `;
-            
+
             }
         }
     })

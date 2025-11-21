@@ -52,28 +52,28 @@ let secUno = document.querySelector(".secUno");
 let urlSecUno = "https://dummyjson.com/products/category/smartphones";
 if (secUno) {
     fetch(urlSecUno)
-    .then(function(response){
-        return response.json();
-    })
-        .then(function(data){
-        let productos = data.products;
-        let infoSec = "";
-        for (let i = 0; i < productos.length; i++) {
-            producto = productos[i]
-            infoSec += 
-            `<article class="articulos">
+        .then(function (response) {
+            return response.json();
+        })
+        .then(function (data) {
+            let productos = data.products;
+            let infoSec = "";
+            for (let i = 0; i < productos.length; i++) {
+                producto = productos[i]
+                infoSec +=
+                    `<article class="articulos">
                 <img class="fotos" src="${producto.thumbnail}" alt="${producto.title}"> 
                 <h3>${producto.title}</h3>
                 <p>${producto.description}</p>
                 <p>Precio: $${producto.price}</p>
                 <a class="detalles" href="./product.html?id=${producto.id}">VER DETALLES</a> 
             </article> `
-        }
-        secUno.innerHTML += infoSec
-    })
-        .catch(function(error){
-        console.log('El error es: ' + error);
-    })
+            }
+            secUno.innerHTML += infoSec
+        })
+        .catch(function (error) {
+            console.log('El error es: ' + error);
+        })
 }
 
 
@@ -82,15 +82,15 @@ let secDos = document.querySelector(".secDos");
 let urlSecDos = "https://dummyjson.com/products/category/kitchen-accessories";
 if (secDos) {
     fetch(urlSecDos)
-    .then(function(response){
-        return response.json();
-    })
-        .then(function(data){
-        let productos = data.products;
-        let infoSec = "";
-        for (let i = 0; i < productos.length; i++) {
-            producto = productos[i]
-            infoSec += `
+        .then(function (response) {
+            return response.json();
+        })
+        .then(function (data) {
+            let productos = data.products;
+            let infoSec = "";
+            for (let i = 0; i < productos.length; i++) {
+                producto = productos[i]
+                infoSec += `
                     <article class="articulos">
                         <img class="fotos" src="${producto.thumbnail}">
                             <h3>${producto.title}</h3>
@@ -99,15 +99,15 @@ if (secDos) {
                             <a class="detalles" href="./product.html?id=${producto.id}">VER DETALLES</a>
                     </article>
                 `;
-            
-        }
-        secDos.innerHTML += infoSec
-    })
-        .catch(function(error){
-        console.log('El error es: ' + error);
-    })
+
+            }
+            secDos.innerHTML += infoSec
+        })
+        .catch(function (error) {
+            console.log('El error es: ' + error);
+        })
 }
 
 
-    
+
 
